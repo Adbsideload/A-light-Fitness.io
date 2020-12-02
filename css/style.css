@@ -1,0 +1,102 @@
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    top: 9px;
+    ;
+}
+
+.mid {
+    /* border: 2px solid rgb(185, 216, 48); */
+    display: block;
+    margin: 20px auto;
+    width: 48%;
+}
+
+.right {
+    /* border: 2px solid rgb(56, 190, 56); */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 29px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    color: grey;
+    text-decoration: underline;
+}
+
+.left img {
+    width: 136px;
+    filter: invert(10%);
+    background-color: rgba(14, 3, 3, 0);
+}
+
+.left div {
+    text-align: center;
+    line-height: 3px;
+    font-size: 20px;
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: rgba(0, 0, 0, 0.171);
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Nerko One', cursive;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+.container {
+    /* border: 2px solid blue; */
+    margin: 52px 628px;
+    padding: 38px 56px;
+    width: 34%;
+    border-radius: 25px;
+}
+
+.formgroup input {
+    text-align: center;
+    display: block;
+    width: 38%;
+    height: 26px;
+    margin: 3px auto;
+    padding: 4px 123px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Nerko One', cursive;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.formgroup button {
+    display: block;
+    width: 80px;
+    margin: 7px auto;
+}
